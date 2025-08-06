@@ -25,21 +25,6 @@ This tool is designed to reduce the learning curve and maximize the value of Zee
 - 🌐 Interactive UI for exploring log structures and navigating across entries
 - 📦 Easily extendable to support custom or derived Zeek logs
 
----
-
-## 📁 Project Structure
-
-zeek-data-dictionary/
-├── data/                 # JSON/YAML definitions of Zeek logs and relationships
-├── public/               # Static assets (icons, logos)
-├── src/                  # Source code for the interactive frontend
-│   ├── components/       # React/Vue/Svelte components (depending on framework)
-│   └── views/            # Pages or views for dictionary, relationships, pivots
-├── scripts/              # Utilities for parsing Zeek schema or generating definitions
-├── README.md             # This file
-└── package.json          # Dependencies and project metadata
-
----
 
 ## 🚀 Getting Started
 
