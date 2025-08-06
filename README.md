@@ -2,6 +2,8 @@
 
 An interactive data dictionary for [Zeek](https://zeek.org/) logs, designed to help analysts, engineers, and threat hunters understand the structure, relationships, and pivot points within Zeek's powerful telemetry.
 
+<img width="1681" height="924" alt="Screenshot 2025-08-06 at 4 31 43 PM" src="https://github.com/user-attachments/assets/04e79e07-5250-4a55-be0b-1160b015cec1" />
+
 ---
 
 ## 🔍 Overview
