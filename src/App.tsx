@@ -243,21 +243,7 @@ function App() {
             />
             
             {/* Graph Controls */}
-            <div className="absolute top-4 right-4 flex flex-col space-y-2">
-              <div className="bg-slate-900/80 backdrop-blur border border-slate-700 rounded-lg p-3">
-                <div className="text-xs text-slate-400 mb-2">Graph Stats</div>
-                <div className="text-sm space-y-1">
-                  <div className="flex justify-between">
-                    <span className="text-slate-400">Nodes:</span>
-                    <span className="text-slate-200">{activeNodes.size}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-400">Selected:</span>
-                    <span className="text-blue-400">{selectedNode || 'None'}</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {/* Graph controls are now handled within GraphVisualization component */}
           </div>
 
           {/* Field Details Panel */}
