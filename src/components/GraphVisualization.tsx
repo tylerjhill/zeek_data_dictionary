@@ -35,8 +35,8 @@ export const GraphVisualization: React.FC<GraphVisualizationProps> = ({
 }) => {
   const svgRef = useRef<SVGSVGElement>(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-  const [showPivotLabels, setShowPivotLabels] = useState(true);
-  const [showConnectionStrength, setShowConnectionStrength] = useState(true);
+  const [showPivotLabels, setShowPivotLabels] = useState(false);
+  const [showConnectionStrength, setShowConnectionStrength] = useState(false);
 
   useEffect(() => {
     const updateDimensions = () => {
