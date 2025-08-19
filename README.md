@@ -28,18 +28,4 @@ This tool is designed to reduce the learning curve and maximize the value of Zee
 - 📦 Easily extendable to support custom or derived Zeek logs
 
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (>= 16.x)  
-- Yarn or npm
-
-### Installation
-
-git clone https://github.com/tylerjhill/zeek-data-dictionary.git
-cd zeek-data-dictionary
-npm install   # or yarn install
-
-npm run dev   # or yarn dev
 
