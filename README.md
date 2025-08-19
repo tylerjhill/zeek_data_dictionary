@@ -37,12 +37,9 @@ This tool is designed to reduce the learning curve and maximize the value of Zee
 
 ### Installation
 
-git clone https://github.com/your-username/zeek-data-dictionary.git
+git clone https://github.com/tylerjhill/zeek-data-dictionary.git
 cd zeek-data-dictionary
 npm install   # or yarn install
 
 npm run dev   # or yarn dev
 
----
-
-Let me know if you're using a specific framework (React, Vue, etc.) or want to include live log parsing, embedded Zeek documentation, or visuals like graphs—I'd be happy to tailor it further!
